@@ -1,0 +1,6 @@
+{
+  "name": "SkillReel",
+  "description": "Social short-video learning platform. Scroll, learn, and grow with reels, challenges, paths, and AI coaching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

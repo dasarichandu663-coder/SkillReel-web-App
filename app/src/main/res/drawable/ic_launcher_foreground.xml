@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Graduation Cap / Growth Wings at top (inside safe zone 21..87) -->
+    <path
+        android:pathData="M54,28 L30,40 L54,52 L78,40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="28"
+                android:endX="78"
+                android:endY="52"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#A855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Cap tassel and ribbon -->
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M74,42 L74,54 A3,3 0 0,1 68,54 L68,45 Z" />
+
+    <!-- Central Glowing Play Reel Triangle -->
+    <path
+        android:pathData="M44,48 L72,64 L44,80 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="48"
+                android:endX="72"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#DDD6FE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Knowledge Sparkle on top-right -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M78,30 L80,35 L85,37 L80,39 L78,44 L76,39 L71,37 L76,35 Z" />
+</vector>
